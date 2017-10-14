@@ -9,7 +9,7 @@ class Anagram
     self
   end
 
-  def match(string)
+  def match1(string)
     got_it= ""
     string.split("").sort.each do |string_w|
       if (string_w.split("").sort == match.split("").sort)
