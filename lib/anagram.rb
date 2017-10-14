@@ -1,7 +1,7 @@
 # Your code goes here!
 
 class Anagram
-  attr_accessor match:
+  attr_accessor :match
 
   def initialize(word)
     binding.pry
