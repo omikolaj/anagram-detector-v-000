@@ -4,7 +4,7 @@ class Anagram
   attr_accessor :match
 
   def initialize(word)
-    anagram = Anagram.new
+    anagram = self.new
     anagram.match = word
     anagram
     binding.pry
