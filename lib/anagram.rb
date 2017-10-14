@@ -9,13 +9,9 @@ class Anagram
   end
 
   def match(string)
-    got_it= ""
-    string.split("").sort.each do |string_w|
-      if (string_w.split("").sort == match.split("").sort)
-        got_it=string_w
+    string.map do |item|
+      if (item.split("").sort == @word.split("").sort)
       end
     end
-    got_it
-  end
-
+  end.join
 end
