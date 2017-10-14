@@ -1,3 +1,5 @@
+
+require 'pry'
 describe 'Anagram' do 
   it 'should detect no matches' do
     diaper = Anagram.new('diaper')
