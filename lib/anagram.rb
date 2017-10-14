@@ -4,10 +4,10 @@ class Anagram
   attr_accessor :match
 
   def initialize(word)
+    binding.pry
     anagram = self
     anagram.match = word
     anagram
-    binding.pry
   end
 
   def match(string)
