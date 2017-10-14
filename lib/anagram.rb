@@ -5,9 +5,8 @@ class Anagram
 
   def initialize(word)
     binding.pry
-    anagram = self
-    anagram.match = word
-    anagram
+    match = word
+    self
   end
 
   def match(string)
