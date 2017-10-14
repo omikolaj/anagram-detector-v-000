@@ -12,6 +12,6 @@ class Anagram
     string.map do |item|
       if (item.split("").sort == @word.split("").sort)
       end
-    end
-  end.join
+    end.join
+  end
 end
