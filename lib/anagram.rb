@@ -7,6 +7,7 @@ class Anagram
     anagram = Anagram.new
     anagram.match = word
     anagram
+    binding.pry
   end
 
   def match(string)
